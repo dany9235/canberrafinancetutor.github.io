@@ -1,13 +1,13 @@
 :root {
-  --primary: #3AAFA9;
-  --secondary: #F6D6AD;
-  --accent: #FF715B;
-  --bg: #F2F4F3;
-  --text: #2B2B2B;
+  --primary: #27AE60;        /* Leaf Green */
+  --secondary: #D5F5E3;      /* Pale Mint */
+  --accent: #F4D03F;         /* Sunshine Yellow */
+  --background: #F8F9F9;     /* Very Light Gray */
+  --text: #1B2631;           /* Dark Slate */
 }
 
 body {
-  background-color: var(--bg);
+  background-color: var(--background);
   color: var(--text);
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -46,16 +46,18 @@ section.hero {
 
 .hero .cta-btn {
   background-color: var(--accent);
-  color: white;
+  color: var(--text);
   padding: 0.75rem 1.5rem;
   border: none;
   border-radius: 5px;
   font-size: 1rem;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .hero .cta-btn:hover {
   background-color: var(--primary);
+  color: white;
 }
 
 .card {
